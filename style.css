@@ -6,7 +6,7 @@
 /*Header Styling*/
 
 #top{
-    color:rgb(245, 10, 10);
+    color:rgb(43, 14, 43);
     text-align:center;
     font-size:46px;
     font-family: 'Ubuntu Mono', monospace;
@@ -32,12 +32,12 @@
 #navbar{
     display:flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: rgb(114, 74, 47);
     height: 14vh;
     width: 100vw;
     font-family: 'Ubuntu Mono', monospace;
     margin-top:10px;
-   border: 2px solid black;
+   border: 2px solid rgb(46, 36, 30);
    border-radius:15px;
 }
 
@@ -57,12 +57,12 @@ ul li{
 }
 ul li a{
     padding: 1px;
-    color:white;
+    color:rgb(245, 229, 214);
     text-decoration: none;
     border-radius:10px;
 }
 ul li a:hover{
-    background-color: red;
+    background-color: rgb(151, 124, 111);
     border-radius: 10px;
 }
 
@@ -104,16 +104,16 @@ ul li a:hover{
 /*Button Styling*/
 .btn{
     margin-top:15px;
-    border: 3px solid white;
+    border: 3px solid rgb(226, 176, 255);
     border-radius:15px;
-    background-color:yellow;
+    background-color:rgb(255, 207, 134);
     font-size:20px;
     font-weight: bold;
     font-family: 'Ubuntu Mono', monospace;
 }
 .btn:hover{
     cursor: pointer;
-    background-color: red;
+    background-color: rgb(104, 78, 119);
 }
 
 
@@ -173,7 +173,7 @@ ul li a:hover{
 
 #top3{
     text-align: center;
-    color:red;
+    color:rgb(58, 21, 92);
     font-family: 'Ubuntu Mono', monospace;
 }
 #container4{
@@ -222,7 +222,7 @@ footer{
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(91, 113, 145);
 }
 .form-shape input, .form-shape select, .form-shape textarea{
    width: 92%;
@@ -230,7 +230,7 @@ footer{
 }
 /*Changing the color of placeholder*/
 ::placeholder{                  
-    color:gray;
+    color:rgb(91, 113, 145);
 }
 /*Making the webpage responsive using media queries*/
 @media only screen and (max-width:1131px){
@@ -296,4 +296,8 @@ footer{
     #container1{
         height:44vh
     }
+}
+img#img{
+    height: 70px;
+    width: 70px;
 }
