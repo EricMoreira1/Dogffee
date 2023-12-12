@@ -3,21 +3,22 @@ nav#menu ul{
     list-style: none;
     position: absolute;
     top: 50px;
-    left: 700px;
+    left: 400px;
 }
 nav#menu{
     display: block;
 }
 nav#menu li{
     display: inline-block;
-    background-color: rgb(46, 158, 223);
-    padding: 15px;  
+    background-color: rgb(226, 199, 126);
+    padding: 10px;  
 }
 nav#menu h1{
     display: none;
+    left: 400px;
 }
 body{
-    background-color: rgb(46, 158, 223);
+    background-color: rgb(129, 92, 75);
     margin: 0px; /*Coloca a margem em zero pixels */
 }
 header{
@@ -36,9 +37,14 @@ nav#menu a:visited{
     color: black;
 }
 nav#menu a:hover{
-    color: aliceblue;
+    color: rgb(232, 244, 255);
     transition: all 0.8s ease;
 }
 img{
-    max-width: 300px;
+    max-width: 500px;
+}
+img#img{
+    height: 100px;
+    width: 110px;
+ 
 }
