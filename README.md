@@ -14,7 +14,7 @@ Cafeteria Dogffee<br>
 Café com espuma<br>
 ![Capa do projeto](imagem/Cup-Of-Creamy-Coffee-500x375.png)<br>
 Cappuccino cremoso<br>
-![Capa do projeto](imagem/cafe_de_morango.jpg)
+![Capa do projeto](imagem/cafe_de_morango.jpg)<br>
 Café de morango<br>
 
 ## Descrição dos produtos
